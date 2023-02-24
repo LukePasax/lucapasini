@@ -138,7 +138,7 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
   const subject = form.querySelector("input").value;
   const message = form.querySelector("textarea").value;
-  window.open('mailto:pasini.luca09@gmail.com?subject=' + subject + '&body=' + message);
+  window.open('mailto:dev@lucapasini.com?subject=' + subject + '&body=' + message);
 })
 
 
